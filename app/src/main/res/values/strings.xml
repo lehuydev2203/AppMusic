@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Music</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_category">Category</string>
+    <string name="title_youtube">Video</string>
+    <string name="title_notification">Notification</string>
+    <string name="title_profile">Profile</string>
+</resources>
