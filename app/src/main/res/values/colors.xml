@@ -22,5 +22,6 @@
     <color name="placeholder_bg">#dddddd</color>
     <color name="black">#111111</color>
     <color name="mediumblack">#212121</color>
-    <color name="lightblack">#616161</color>
+    <color name="lightblack">#BEB9B9</color>
+    <color name="blackone">#5F5959</color>
 </resources>
