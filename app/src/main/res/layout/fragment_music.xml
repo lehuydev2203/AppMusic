@@ -6,7 +6,7 @@
     android:layout_above="@+id/navBottom"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    android:background="@color/lightblack"
+    android:background="@color/blacktwo"
     android:paddingTop="30dp"
     tools:context="com.dinh.fragment.MusicFragment">
 
@@ -23,7 +23,7 @@
         <com.smarteist.autoimageslider.SliderView
             android:id="@+id/imageSlider"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="130dp"
             app:sliderAnimationDuration="200"
             app:sliderAutoCycleDirection="back_and_forth"
             app:sliderAutoCycleEnabled="true"

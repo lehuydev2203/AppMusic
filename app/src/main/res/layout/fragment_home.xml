@@ -7,7 +7,7 @@
     android:layout_above="@+id/navBottom"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    android:background="@color/lightblack"
+    android:background="@color/blacktwo"
     android:paddingTop="30dp"
     tools:context=".MainActivity">
 
@@ -18,14 +18,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
-            android:src="@drawable/ic_person_while"
-            android:layout_width="30dp"
-            android:layout_height="30dp"/>
+            android:src="@drawable/ic_person_black_three"
+            android:layout_width="28dp"
+            android:layout_height="28dp"/>
         <TextView
             android:text="APP MUSIC"
             android:textSize="25dp"
             android:gravity="center"
-            android:textColor="@color/whileColor"
+            android:textColor="@color/blackfive"
             android:textStyle="bold"
             android:layout_weight="1"
             android:layout_gravity="center"
@@ -33,9 +33,9 @@
             android:layout_height="wrap_content"/>
 
         <ImageView
-            android:src="@drawable/ic_notifications_while"
-            android:layout_width="30dp"
-            android:layout_height="30dp"/>
+            android:src="@drawable/ic_notifications_black_three"
+            android:layout_width="28dp"
+            android:layout_height="28dp"/>
 
     </LinearLayout>
 
@@ -45,13 +45,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="10dp"
         app:cardCornerRadius="5dp">
 
         <com.smarteist.autoimageslider.SliderView
             android:id="@+id/imageSlider"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="130dp"
             app:sliderAnimationDuration="200"
             app:sliderAutoCycleDirection="back_and_forth"
             app:sliderAutoCycleEnabled="true"

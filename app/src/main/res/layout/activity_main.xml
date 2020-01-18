@@ -10,12 +10,13 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navBottom"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="65dp"
         android:layout_alignParentBottom="true"
-        app:labelVisibilityMode="selected"
-        app:itemIconTint="@color/whileColor"
+        android:layout_marginBottom="0dp"
+        android:background="@color/black"
         android:isScrollContainer="true"
-        android:background="@color/blackone"
+        app:itemIconTint="@color/blackfive"
+        app:itemTextColor="@color/blackfive"
         app:menu="@menu/menu_bottom_navigation" />
 
 
