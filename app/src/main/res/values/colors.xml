@@ -20,10 +20,11 @@
     <color name="denvua">#252323</color>
     <color name="xanhduong">#5784f7</color>
     <color name="blackfive">#dddddd</color>
-    <color name="black">#25272a</color>
+    <color name="black">#2A2C30</color>
     <color name="mediumblack">#212121</color>
     <color name="lightblack">#9E9797</color>
     <color name="blackone">#817C7C</color>
     <color name="blacktwo">#3B3D40</color>
+    <color name="blacktest">#353848</color>
     <color name="blackthree">#87898C</color>
 </resources>

@@ -6,11 +6,46 @@
     android:layout_above="@+id/navBottom"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    android:background="@color/blacktwo"
+    android:background="@color/blacktest"
     android:paddingTop="30dp"
     tools:context="com.dinh.fragment.MusicFragment">
 
-    <include layout="@layout/search_view"/>
+    <LinearLayout
+        android:id="@+id/layout_search"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/custom_search"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/ic_search"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:id="@+id/txtSearch"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/custom_search"
+            android:layout_weight="1"
+            android:gravity="start|center"
+            android:hint="Bạn muốn tìm gì?" />
+
+        <ImageView
+            android:id="@+id/imgVoice"
+            android:layout_gravity="center"
+            android:layout_marginRight="17dp"
+            android:src="@drawable/ic_keyboard_voice"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+    </LinearLayout>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

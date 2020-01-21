@@ -7,7 +7,7 @@
     android:layout_above="@+id/navBottom"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    android:background="@color/blacktwo"
+    android:background="@color/blacktest"
     android:paddingTop="30dp"
     tools:context=".MainActivity">
 
@@ -19,13 +19,13 @@
         android:layout_height="wrap_content">
         <ImageView
             android:src="@drawable/ic_person_black_three"
-            android:layout_width="28dp"
-            android:layout_height="28dp"/>
+            android:layout_width="26dp"
+            android:layout_height="26dp"/>
         <TextView
             android:text="APP MUSIC"
-            android:textSize="25dp"
+            android:textSize="23dp"
             android:gravity="center"
-            android:textColor="@color/blackfive"
+            android:textColor="#CDD5D4"
             android:textStyle="bold"
             android:layout_weight="1"
             android:layout_gravity="center"
@@ -34,8 +34,8 @@
 
         <ImageView
             android:src="@drawable/ic_notifications_black_three"
-            android:layout_width="28dp"
-            android:layout_height="28dp"/>
+            android:layout_width="26dp"
+            android:layout_height="26dp"/>
 
     </LinearLayout>
 
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginHorizontal="10dp"
-        app:cardCornerRadius="5dp">
+        app:cardCornerRadius="3dp">
 
         <com.smarteist.autoimageslider.SliderView
             android:id="@+id/imageSlider"
