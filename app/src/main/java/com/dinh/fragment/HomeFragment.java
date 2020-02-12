@@ -1,6 +1,7 @@
 package com.dinh.fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -13,8 +14,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.dinh.activity.MusicDetailActivity;
 import com.dinh.activity.R;
 import com.dinh.adapter.RecyclerViewAdapter;
 import com.dinh.adapter.SlideHomeAdapter;
@@ -28,6 +31,7 @@ import java.util.List;
 
 public class HomeFragment extends Fragment {
     private SliderView sliderView;
+    private ImageView icon_person;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -55,6 +59,14 @@ public class HomeFragment extends Fragment {
 
     private void addControls(View view) {
         sliderView = view.findViewById(R.id.imageSlider);
+        icon_person = view.findViewById(R.id.icon_person);
+
+        icon_person.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getContext(), MusicDetailActivity.class));
+            }
+        });
     }
 
 }
