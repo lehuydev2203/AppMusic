@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:weightSum="1">
+    <TextView
         android:id="@+id/item_music"
-        android:icon="@drawable/ic_library_music_black"
-        android:title="@string/title_music" />
-    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_library_music_black"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#24edf1"
+        android:text="@string/title_music" />
+    <TextView
         android:id="@+id/item_home"
         android:state_enabled="true"
-        android:icon="@drawable/ic_home_black"
-        android:title="@string/title_home" />
-    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_home_black"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#24edf1"
+        android:text="@string/title_home" />
+    <TextView
         android:id="@+id/item_youtube"
-        android:icon="@drawable/ic_video_black"
-        android:title="@string/title_youtube" />
-</menu>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_video_black"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#24edf1"
+        android:text="@string/title_youtube" />
+</LinearLayout>
